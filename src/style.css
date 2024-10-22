@@ -9,12 +9,17 @@
 
 	color-scheme: light dark;
 	color: rgba(255, 255, 255, 0.87);
-	background-color: #242424;
 
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+
+	--app-header-height: 56px;
+	--sidebar-width: 320px;
+	--navbar-width: 96px;
+	--main-width: 960px;
+	--main-padding: 24px;
 }
 
 html,

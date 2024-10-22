@@ -11,16 +11,16 @@ const props = defineProps({
 </script>
 
 <template>
-	<li data-name="task">
-		<div data-name="taskText">
-			<p data-name="taskName">
+	<li>
+		<div>
+			<p>
 				{{ props.task.name }}
 			</p>
-			<p data-name="taskDescription">
+			<p>
 				{{ props.task.description }}
 			</p>
 		</div>
-		<TaskList data-name="subTasks" v-if="props.task.subTasks" :tasks="props.task.subTasks"></TaskList>
+		<TaskList v-if="props.task.subTasks" :tasks="props.task.subTasks"></TaskList>
 	</li>
 </template>
 
