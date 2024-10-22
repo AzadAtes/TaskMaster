@@ -1,7 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { useTaskStore } from "../stores/taskStore.ts";
+import TaskList from "../components/tasks/TaskList.vue";
+const taskStore = useTaskStore();
+</script>
 
 <template>
-	<h1>TaskView</h1>
+	<TaskList :tasks="taskStore.tasks" />
 </template>
 
-<style scoped></style>
+<style></style>
