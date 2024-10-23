@@ -8,8 +8,8 @@ const taskStore = useTaskStore();
 <template>
 	<main id="task-view-container" class="flex min-h-full">
 		<Sidebar class="min-h-full w-1/6 border-r-2" />
-		<div class="flex flex-1 content-center items-center justify-center">
-			<div id="tasks-container" class="flex-1 pt-8">
+		<div class="flex flex-1 justify-center">
+			<div id="tasks-container" class="flex-shrink pt-8">
 				<TaskList class="flex-1" :tasks="taskStore.tasks" />
 			</div>
 		</div>
@@ -18,6 +18,6 @@ const taskStore = useTaskStore();
 
 <style>
 #tasks-container {
-	max-width: 90%;
+	min-width: 90%;
 }
 </style>
