@@ -3,9 +3,6 @@ export default {
 	content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
 	theme: {
 		extend: {
-			colors: {
-				"main-bg-color": "var(--main-bg-color)",
-			},
 			spacing: {
 				"app-header-height": "var(--app-header-height)",
 				"sidebar-width": "var(--sidebar-width)",
@@ -14,7 +11,7 @@ export default {
 				"router-view": "calc(100% - var(--navbar-width))",
 			},
 			borderWidth: {
-				'1': '1px',
+				1: "1px",
 			},
 		},
 	},

@@ -15,11 +15,7 @@
     box-sizing: content-box;
 
     color-scheme: light dark;
-    background-color: var(--main-bg-color);
-    color: var(--main-color);
 
-    --main-bg-color: rgba(18, 18, 18, 1);
-    --main-color: rgba(255, 255, 255, 0.87);
     --app-header-height: 56px;
     --navbar-width: 56px;
     --sidebar-width: 320px;

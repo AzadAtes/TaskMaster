@@ -11,7 +11,7 @@ const props = defineProps({
 </script>
 
 <template>
-	<ul class="flex-1 border-l-1 pl-4">
+	<ul class="flex-1 border-l-1 border-gray-700 pl-6">
 		<Task v-for="task in props.tasks" :task="task" :key="task.id" />
 	</ul>
 </template>
