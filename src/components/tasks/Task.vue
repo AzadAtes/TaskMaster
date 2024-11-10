@@ -12,7 +12,7 @@ const props = defineProps({
 
 <template>
 	<li>
-		<div class="my-2 rounded-lg border-2 border-gray-700 bg-gray-800 p-2">
+		<div class="my-3 rounded-lg border-2 border-gray-700 bg-gray-800 p-3">
 			<p>
 				{{ props.task.name }}
 			</p>
