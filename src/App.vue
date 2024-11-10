@@ -6,11 +6,9 @@ import Navbar from "./components/Navbar.vue";
 <template>
 	<Header id="app-header" />
 	<div id="app-content" class="relative">
-		<Navbar id="app-nav-bar"/>
-		<RouterView class="min-h-full left-navbar-width relative w-router-view min-h-app-content" />
+		<Navbar id="app-nav-bar" />
+		<RouterView class="min-h-app-content relative left-navbar-width min-h-full w-router-view" />
 	</div>
 </template>
-
-
 
 <style scoped></style>
