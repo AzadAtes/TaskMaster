@@ -5,6 +5,6 @@ import vue from "@vitejs/plugin-vue";
 export default defineConfig({
 	plugins: [vue()],
 	server: {
-		hmr: false, // Disable hot module reload
+		hmr: true, // Disable hot module reload
 	},
 });

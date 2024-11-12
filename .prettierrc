@@ -3,5 +3,5 @@
 	"tailwindConfig": "./tailwind.config.js",
 	"tabWidth": 4,
 	"useTabs": true,
-	"printWidth": 200
+	"printWidth": 150
 }

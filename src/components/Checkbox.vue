@@ -2,36 +2,13 @@
 
 <template>
 	<label class="cursor-pointer">
-		<label class="flex h-5 w-5 items-center justify-center">
-			<input id="checkbox" type="checkbox" />
-			<span></span>
+		<label class="flex h-5 w-5 cursor-pointer items-center justify-center">
+			<input type="checkbox" class="peer absolute opacity-0" />
+			<span
+				class="transition-bg-image relative h-5 w-5 border-2 border-neutral-400 bg-neutral-800 bg-[url('assets/check.png')] duration-200 ease-linear peer-checked:border-green-600 peer-checked:bg-cover peer-checked:bg-center"
+			></span>
 		</label>
 	</label>
 </template>
 
-<style scoped>
-input[type="checkbox"] {
-	opacity: 0;
-	position: absolute;
-}
-
-input[type="checkbox"] + span {
-	position: relative;
-	width: 20px;
-	height: 20px;
-	border: 2px solid #374151;
-	background: #111827;
-	transition: background-image 0.3s ease;
-}
-
-input[type="checkbox"]:checked + span {
-	background-image: url("assets/check.png");
-	background-size: cover;
-	background-position: center;
-	border-color: #057a55;
-}
-
-input[type="checkbox"]:hover + span {
-	cursor: pointer;
-}
-</style>
+<style scoped></style>
