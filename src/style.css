@@ -26,3 +26,13 @@
     scrollbar-color: grey transparent;
     /*scrollbar-width: thin;*/
 }
+
+.icon-wrapper {
+    display: flex;
+    height: 48px;
+    width: 48px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%;
+    cursor: pointer;
+}

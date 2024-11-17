@@ -64,14 +64,6 @@ export const useTaskStore = defineStore("tasks", () => {
 								},
 							],
 						},
-						{
-							id: "113",
-							name: "Set 3",
-						},
-						{
-							id: "114",
-							name: "Set 4",
-						},
 					],
 				},
 				{

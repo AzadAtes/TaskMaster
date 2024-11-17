@@ -13,6 +13,7 @@ export default {
 				"tasks-view-content": "calc(100% - var(--sidebar-width))",
 				"router-view": "calc(100% - var(--navbar-width))",
 				"nav+sidebar-width": "calc(var(--navbar-width) + var(--sidebar-width))",
+				"99/100": "99%",
 			},
 			borderWidth: {
 				1: "1px",
