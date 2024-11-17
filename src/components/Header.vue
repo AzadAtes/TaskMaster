@@ -6,7 +6,7 @@ import SearchBar from "./SearchBar.vue";
 </script>
 
 <template>
-	<header class="sticky top-0 z-50 flex h-app-header-height w-full border-b-1 border-neutral-600 bg-neutral-800 shadow-lg">
+	<header class="sticky top-0 z-50 flex h-app-header-height w-full border-b-1 border-neutral-600 bg-neutral-700 shadow-lg">
 		<div id="header-left-section" class="flex h-full w-1/3 items-center justify-start">
 			<img src="../../assets/TaskMasterLogo.png" alt="TaskMaster Logo" class="mx-3 h-9 w-auto cursor-pointer" />
 		</div>
@@ -14,13 +14,13 @@ import SearchBar from "./SearchBar.vue";
 			<SearchBar />
 		</div>
 		<div id="header-right-section" class="flex w-1/3 items-center justify-end gap-2 pr-2">
-			<div class="icon-wrapper hover:bg-neutral-700">
+			<div class="icon-wrapper hover:bg-neutral-600">
 				<SyncOutlineIcon />
 			</div>
-			<div class="icon-wrapper hover:bg-neutral-700">
+			<div class="icon-wrapper hover:bg-neutral-600">
 				<AccountCircleIcon />
 			</div>
-			<div class="icon-wrapper hover:bg-neutral-700">
+			<div class="icon-wrapper hover:bg-neutral-600">
 				<SettingsOutlineIcon />
 			</div>
 		</div>
