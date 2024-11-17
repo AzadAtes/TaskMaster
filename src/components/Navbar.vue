@@ -1,9 +1,10 @@
 <script setup lang="ts">
 import ViewListIcon from "./icons/ViewListIcon.vue";
 import CalendarIcon from "./icons/CalendarIcon.vue";
-import NotificationNoneIcon from "./icons/NotificationNoneIcon.vue";
 import WeightIcon from "./icons/WeightIcon.vue";
 import EventAvailableIcon from "./icons/EventAvailableIcon.vue";
+import HistoryIcon from "./icons/HistoryIcon.vue";
+import SyncOutlineIcon from "./icons/SyncOutlineIcon.vue";
 </script>
 
 <template>
@@ -24,7 +25,10 @@ import EventAvailableIcon from "./icons/EventAvailableIcon.vue";
 		</div>
 		<div id="navbar-bottom-section" class="mb-4 flex w-full flex-1 flex-col items-center justify-end gap-6">
 			<div class="icon-wrapper hover:bg-neutral-700">
-				<NotificationNoneIcon />
+				<SyncOutlineIcon />
+			</div>
+			<div class="icon-wrapper hover:bg-neutral-700">
+				<HistoryIcon />
 			</div>
 		</div>
 	</nav>

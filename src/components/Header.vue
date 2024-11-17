@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import SettingsOutlineIcon from "./icons/SettingsOutlineIcon.vue";
 import AccountCircleIcon from "./icons/AccountCircleIcon.vue";
-import SyncOutlineIcon from "./icons/SyncOutlineIcon.vue";
 import SearchBar from "./SearchBar.vue";
+import NotificationNoneIcon from "./icons/NotificationNoneIcon.vue";
 </script>
 
 <template>
@@ -15,7 +15,7 @@ import SearchBar from "./SearchBar.vue";
 		</div>
 		<div id="header-right-section" class="flex w-1/3 items-center justify-end gap-2 pr-2">
 			<div class="icon-wrapper hover:bg-neutral-600">
-				<SyncOutlineIcon />
+				<NotificationNoneIcon />
 			</div>
 			<div class="icon-wrapper hover:bg-neutral-600">
 				<AccountCircleIcon />
