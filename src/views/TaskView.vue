@@ -3,7 +3,9 @@ import { useTaskStore } from "../stores/taskStore.ts";
 import TaskList from "../components/tasks/TaskList.vue";
 import LeftTaskSidebar from "../components/tasks/LeftTaskSidebar.vue";
 import RightTaskSidebar from "../components/tasks/RightTaskSidebar.vue";
+
 const taskStore = useTaskStore();
+taskStore.getTasks();
 </script>
 
 <template>

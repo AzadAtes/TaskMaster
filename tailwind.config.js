@@ -8,15 +8,17 @@ export default {
 			spacing: {
 				"app-header-height": "var(--app-header-height)",
 				"app-content": "calc(100vh - 56px)",
-				"sidebar-width": "var(--sidebar-width)",
+				"left-sidebar-width": "var(--left-sidebar-width)",
+				"right-sidebar-width": "var(--right-sidebar-width)",
 				"navbar-width": "var(--navbar-width)",
-				"tasks-view-content": "calc(100% - var(--sidebar-width))",
 				"router-view": "calc(100% - var(--navbar-width))",
-				"nav+sidebar-width": "calc(var(--navbar-width) + var(--sidebar-width))",
 				"99/100": "99%",
 			},
 			borderWidth: {
 				1: "1px",
+			},
+			colors: {
+				"neutral-750": "#333333",
 			},
 		},
 	},

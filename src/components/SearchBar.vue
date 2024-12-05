@@ -3,7 +3,7 @@ import SearchIcon from "./icons/SearchIcon.vue";
 </script>
 
 <template>
-	<div id="search-bar" class="flex h-8 w-full cursor-pointer justify-start rounded-xl bg-neutral-600 hover:bg-neutral-500">
+	<div id="search-bar" class="flex h-8 w-full cursor-pointer justify-start rounded-xl bg-neutral-700">
 		<SearchIcon class="relative left-2 top-1 rounded-r-full text-neutral-300" />
 		<input
 			type="search"

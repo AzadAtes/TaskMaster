@@ -6,7 +6,7 @@ import NotificationNoneIcon from "./icons/NotificationNoneIcon.vue";
 </script>
 
 <template>
-	<header class="sticky top-0 z-50 flex h-app-header-height w-full border-b-1 border-neutral-600 bg-neutral-700 shadow-lg">
+	<header class="bg-neutral-750 sticky top-0 z-50 flex h-app-header-height w-full border-b-1 border-neutral-600 shadow-lg">
 		<div id="header-left-section" class="flex h-full w-1/3 items-center justify-start">
 			<img src="../../assets/TaskMasterLogo.png" alt="TaskMaster Logo" class="mx-3 h-9 w-auto cursor-pointer" />
 		</div>
