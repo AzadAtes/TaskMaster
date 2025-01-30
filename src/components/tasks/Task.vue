@@ -2,6 +2,7 @@
 import { computed, PropType, ref } from "vue";
 import TaskList from "./TaskList.vue";
 import Checkbox from "../Checkbox.vue";
+import PlusIcon from "../icons/PlusIcon.vue";
 
 const props = defineProps({
 	task: {
@@ -26,11 +27,10 @@ const toggleDetails = () => {
 <template>
 	<li class="">
 		<div
-			class="mx-auto cursor-pointer select-none rounded-md border-neutral-700 bg-neutral-750 hover:rounded-md hover:bg-neutral-700"
-			@click="toggleDetails"
+			class="h-10 mx-auto items-center flex cursor-pointer select-none rounded-md border-neutral-700 bg-neutral-750 hover:rounded-md hover:bg-neutral-700"
 		>
-			<div class="flex items-center">
-				<Checkbox class="p-3" />
+			<Checkbox class="p-3" />
+			<div class="flex items-center flex-1 min-h-full" @click="toggleDetails">
 				<p>
 					{{ props.task.name }}
 				</p>

@@ -5,6 +5,22 @@ export const useTaskStore = defineStore("tasks", () => {
 	const tasksRoute = import.meta.env.VITE_TASKS_ROUTE;
 	const tasks = ref<Task[]>([]);
 
+	const createTask = async(task: Task) => {
+		try {
+			const response = await fetch(`${tasksRoute}`,{
+				method: "POST",
+				headers: {
+					"Content-Type": "application/json",
+				},
+				body: JSON.stringify(task)
+			})
+		}
+		catch (error) {
+			console.error("Error in createTask:", error);
+			alert(`Could not create task.\n${error}`);
+		}
+	}
+
 	const getTasks = async () => {
 		try {
 			if (!tasksRoute) {
@@ -31,5 +47,5 @@ export const useTaskStore = defineStore("tasks", () => {
 		}
 	};
 
-	return { tasks, getTasks };
+	return { tasks, getTasks, createTask };
 });
